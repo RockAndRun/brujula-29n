@@ -1,5 +1,5 @@
 window.DATOS = {
- "actualizado": "2026-11-16",
+ "actualizado": "2026-11-17",
  "provincias": [
   "A Coruña",
   "Albacete",
@@ -94,7 +94,7 @@ window.DATOS = {
    "color": "#d6336c",
    "ches": 2.31,
    "ches_nota": "Dato CHES de Sumar, su predecesor",
-   "programa": "https://frenteamplio.info/programa/",
+   "programa": "https://frenteamplio.info/pdf/ProgramaFrenteAmplio.pdf",
    "provincias": null,
    "excluir": [],
    "publicado": true
@@ -172,7 +172,7 @@ window.DATOS = {
    "color": "#8cc63f",
    "ches": 2.38,
    "ches_nota": null,
-   "programa": "https://ehbildu.eus/",
+   "programa": "https://ehbildu.eus/media/dokumentuak/posibleegin-programa-cas.pdf",
    "provincias": [
     "Araba/Álava",
     "Bizkaia",
@@ -218,7 +218,7 @@ window.DATOS = {
    "color": "#e5732e",
    "ches": 2.31,
    "ches_nota": "No está en CHES: se usa el dato de Sumar (partido equivalente)",
-   "programa": "https://compromis.net/",
+   "programa": "https://frontvalencia.org/#programa",
    "provincias": [
     "Alicante",
     "Castellón",

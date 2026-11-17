@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brújula 29-N</title>
+  <meta name="description" content="Test orientativo de afinidad con los programas electorales de las elecciones generales del 29 de noviembre de 2026.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main>
+  <!-- INICIO -->
+  <section id="inicio">
+    <p class="antetitulo">Elecciones generales · 29 de noviembre de 2026</p>
+    <h1>Brújula 29-N</h1>
+    <p class="entradilla">Responde a <span id="n-preguntas"></span> preguntas y descubre con qué programas electorales coincides más.</p>
+    <ul class="claves">
+      <li>Cada afirmación procede de los programas oficiales; al final verás la cita y la página.</li>
+      <li>No guardamos tus respuestas: todo se calcula en tu navegador.</li>
+      <li>Es una herramienta orientativa, no una encuesta ni una recomendación de voto.</li>
+    </ul>
+    <label for="provincia" class="etiqueta">¿Desde qué provincia votas?</label>
+    <select id="provincia" required>
+      <option value="">Elige tu provincia…</option>
+    </select>
+    <p class="ayuda">Sirve para incluir los partidos que solo se presentan en tu provincia.</p>
+    <button id="empezar" class="primario" disabled>Empezar</button>
+    <p id="aviso-pendientes" class="aviso"></p>
+  </section>
+
+  <!-- PREGUNTAS -->
+  <section id="test" hidden>
+    <div class="progreso" aria-hidden="true"><div id="barra-progreso"></div></div>
+    <p id="contador" class="antetitulo" aria-live="polite"></p>
+    <fieldset>
+      <legend id="pregunta"></legend>
+      <div id="opciones"></div>
+      <label class="opcion ninguna"><input type="radio" name="op" value=""> <span>Ninguna me convence / prefiero no contestar</span></label>
+    </fieldset>
+    <label class="importante"><input type="checkbox" id="importante"> Este tema me importa mucho <span class="ayuda">(cuenta el doble)</span></label>
+    <div class="botones">
+      <button id="anterior">Anterior</button>
+      <button id="siguiente" class="primario" disabled>Siguiente</button>
+    </div>
+  </section>
+
+  <!-- RESULTADO -->
+  <section id="resultado" hidden>
+    <p class="antetitulo" id="res-provincia"></p>
+    <h1>Tu resultado</h1>
+    <p id="res-ganador" class="entradilla"></p>
+
+    <h2>De izquierda a derecha</h2>
+    <div class="eje-wrap">
+      <div id="eje" class="eje" role="img" aria-label="Partidos situados de izquierda a derecha con su porcentaje de afinidad"></div>
+      <div class="eje-extremos"><span>← Izquierda</span><span>Derecha →</span></div>
+    </div>
+    <p class="ayuda">Posición de cada partido en el eje: encuesta a expertos <a href="https://www.chesdata.eu/" target="_blank" rel="noopener">Chapel Hill Expert Survey 2024</a>. El tamaño del círculo indica tu afinidad.</p>
+
+    <h2>Afinidad por partido</h2>
+    <p class="ayuda">Pulsa un partido para ver, pregunta a pregunta, tu respuesta, la suya y la cita de su programa.</p>
+    <div id="lista"></div>
+    <p id="res-pocos" class="aviso"></p>
+    <p id="res-pendientes" class="aviso"></p>
+
+    <div class="botones"><button id="repetir">Volver a empezar</button></div>
+  </section>
+
+  <details id="metodologia">
+    <summary>Metodología y fuentes</summary>
+    <ul>
+      <li><strong>Afirmaciones:</strong> cada pregunta ofrece de 3 a 4 afirmaciones ordenadas internamente de un extremo a otro (se muestran en orden aleatorio). A cada partido se le asigna la que corresponde a su programa electoral oficial, con cita literal y página. Si el programa no dice nada claro sobre un tema, el partido “no se pronuncia” y esa pregunta no cuenta para él.</li>
+      <li><strong>Cálculo:</strong> coincidir con la afirmación de un partido suma el 100 %; elegir una contigua suma parcialmente, y la opuesta, nada. “Me importa mucho” duplica el peso. El porcentaje se calcula solo sobre las preguntas en las que el partido se pronuncia; con menos de 5 preguntas en común se indica “pocos datos”.</li>
+      <li><strong>Eje izquierda-derecha:</strong> no lo decide esta web. Procede de la encuesta académica <a href="https://www.chesdata.eu/" target="_blank" rel="noopener">CHES 2024</a> (variable <em>lrgen</em>, 0-10). Frente Amplio usa el dato de Sumar, su predecesor; Compromís–Front Valencià usa el de Sumar y Adelante Andalucía el de Podemos, por no figurar en CHES.</li>
+      <li><strong>Partidos incluidos:</strong> los que tienen representación en el Congreso o opciones de escaño según las encuestas, más los regionalistas de tu provincia. Solo aparecen los que ya han publicado su programa.</li>
+      <li><strong>Privacidad:</strong> no se guarda ni se envía ninguna respuesta.</li>
+    </ul>
+    <p class="ayuda">Datos actualizados el <span id="actualizado"></span>.</p>
+  </details>
+</main>
+
+<script src="datos.js"></script>
+<script src="afinidad.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

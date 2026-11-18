@@ -1,5 +1,5 @@
 window.DATOS = {
- "actualizado": "2026-11-17",
+ "actualizado": "2026-11-18",
  "provincias": [
   "A Coruña",
   "Albacete",
@@ -105,7 +105,7 @@ window.DATOS = {
    "color": "#6b2e68",
    "ches": 1.56,
    "ches_nota": null,
-   "programa": null,
+   "programa": "https://www.20minutos.es/uploads/files/2026/11/17/29N-programa-Podemos.-Paz-casa-y-trabajo.pdf",
    "provincias": null,
    "excluir": [
     "Barcelona",
@@ -116,7 +116,7 @@ window.DATOS = {
     "Castellón",
     "Valencia"
    ],
-   "publicado": false
+   "publicado": true
   },
   {
    "id": "ERC",
@@ -336,6 +336,14 @@ window.DATOS = {
       9
      ],
      "resumen": "Propone blindar la gestión pública de la sanidad e impedir su privatización derogando la Ley 15/1997."
+    },
+    "PODEMOS": {
+     "letra": "A",
+     "cita": "blindaremos la titularidad y la gestión pública directa como modelo obligatorio del Sistema Nacional de Salud",
+     "pag": [
+      88
+     ],
+     "resumen": "Propone derogar la Ley 15/1997 y las leyes privatizadoras, blindar la titularidad y gestión pública directa como modelo obligatorio del SNS, prohibir nuevas externalizaciones y recuperar los servicios privatizados al vencer los contratos; el nuevo personal de MUFACE, ISFAS y MUGEJU sería atendido por la sanidad pública."
     }
    }
   },
@@ -408,6 +416,14 @@ window.DATOS = {
       10
      ],
      "resumen": "Propone modificar la normativa de conciertos para que la red concertada sea realmente subsidiaria de la pública y prohibir ceder suelo público para centros privados."
+    },
+    "PODEMOS": {
+     "letra": "A",
+     "cita": "Estableceremos una moratoria indefinida a la concesión de nuevos conciertos y a la apertura de nuevos centros privados en todas las etapas educativas",
+     "pag": [
+      79
+     ],
+     "resumen": "Propone avanzar hacia una única red educativa de gestión pública directa: moratoria indefinida a nuevos conciertos, reabsorción progresiva y voluntaria de los concertados en la red pública, retirada de conciertos a incumplidores y prohibición de cuotas obligatorias."
     }
    }
   },
@@ -546,6 +562,14 @@ window.DATOS = {
       45
      ],
      "resumen": "Propone garantizar el carácter laico de la escuela pública, dejando la educación confesional fuera del currículo y del ámbito escolar; no menciona el PIN parental."
+    },
+    "PODEMOS": {
+     "letra": "A",
+     "cita": "Suprimiremos la enseñanza de cualquier religión en cualquier colegio.",
+     "pag": [
+      83
+     ],
+     "resumen": "Propone suprimir la enseñanza de cualquier religión en todos los colegios, bajo pena de retirada de la licencia al centro. No menciona el PIN parental."
     }
    }
   },
@@ -639,6 +663,14 @@ window.DATOS = {
       10
      ],
      "resumen": "Defiende financiación estatal para ampliar la red pública de 0 a 3 años y avanzar hacia su gratuidad."
+    },
+    "PODEMOS": {
+     "letra": "A",
+     "cita": "En Educación Infantil de 0 a 3 años, construiremos en un plazo máximo de cuatro años todas las plazas públicas necesarias para garantizar una cobertura universal, gratuita y de gestión pública directa.",
+     "pag": [
+      80
+     ],
+     "resumen": "Propone construir en un máximo de cuatro años todas las plazas públicas de 0 a 3 años necesarias para una cobertura universal, gratuita y de gestión pública directa, paralizando nuevas licencias privadas."
     }
    }
   },
@@ -722,6 +754,15 @@ window.DATOS = {
       11
      ],
      "resumen": "Propone un Estatuto de las Personas Cuidadoras con derechos sociolaborales, reconocer la ayuda a domicilio como servicio público esencial y una ley de servicios sociales que impida privatizar determinados servicios; prioriza la atención en el propio entorno."
+    },
+    "PODEMOS": {
+     "letra": "A",
+     "cita": "Se llevará a cabo un proceso de desprivatización del sistema de residencias en España con el horizonte de que su gestión sea pública y directa al 100%.",
+     "pag": [
+      46,
+      63
+     ],
+     "resumen": "Propone desprivatizar las residencias hasta una gestión 100 % pública y directa (sin nuevos conciertos y revirtiendo los contratos que caduquen) y una prestación para cuidadoras familiares del 100 % del SMI en grado III, 70 % en grado II y 40 % en grado I."
     }
    }
   },
@@ -789,6 +830,14 @@ window.DATOS = {
       10
      ],
      "resumen": "Propone modificar la ley de eutanasia para garantizar la prestación a todas las personas, incluyendo el sufrimiento psíquico, y blindarla frente a la intromisión judicial de terceros."
+    },
+    "PODEMOS": {
+     "letra": "A",
+     "cita": "Garantizaremos el ejercicio efectivo del derecho a una muerte digna.",
+     "pag": [
+      94
+     ],
+     "resumen": "Propone garantizar el ejercicio efectivo del derecho a una muerte digna reforzando las Comisiones de Garantía, agilizando los trámites y evitando que la objeción de conciencia sea un obstáculo."
     }
    }
   },
@@ -877,6 +926,14 @@ window.DATOS = {
       18
      ],
      "resumen": "Propone deflactar el IRPF para rentas inferiores a 30.000 euros y gravar las rentas financieras con la misma progresividad que las del trabajo; no concreta cambios en los tramos altos."
+    },
+    "PODEMOS": {
+     "letra": "A",
+     "cita": "elevaremos los tipos a las bases imponibles de más de 60.000 euros anuales",
+     "pag": [
+      21
+     ],
+     "resumen": "Propone reformar la escala estatal del IRPF: bajar el tipo mínimo del 9,5 % al 9 % y subir los tipos a partir de 60.000 euros (hasta el 28,5 % estatal desde 500.000 euros), y que quienes cobren menos del SMI no tributen."
     }
    }
   },
@@ -955,6 +1012,15 @@ window.DATOS = {
       18
      ],
      "resumen": "Propone mantener y ampliar el Impuesto a las Grandes Fortunas, acercándolo a propuestas como la tasa Zucman, y valorar los inmuebles en Patrimonio por un índice estatal; no menciona sucesiones."
+    },
+    "PODEMOS": {
+     "letra": "A",
+     "cita": "Ampliaremos el impuesto a las grandes fortunas a todos los obligados tributarios del Impuesto del Patrimonio, para evitar que las Comunidades Autónomas lo eliminen.",
+     "pag": [
+      17,
+      22
+     ],
+     "resumen": "Propone convertir el impuesto de grandes fortunas en un impuesto estatal permanente aplicable a todos los obligados del Impuesto del Patrimonio, para que las comunidades no puedan eliminarlo, y crear un impuesto al patrimonio inmobiliario de las empresas. No menciona el impuesto de sucesiones."
     }
    }
   },
@@ -1049,6 +1115,15 @@ window.DATOS = {
       18
      ],
      "resumen": "Propone crear un impuesto sobre el beneficio de las empresas oligopolísticas y eliminar ventajas fiscales de las grandes empresas frente a las pymes."
+    },
+    "PODEMOS": {
+     "letra": "A",
+     "cita": "Estableceremos un impuesto permanente sobre los beneficios extraordinarios de la gran banca, de forma que al menos el 50 % de sus beneficios revierta en las arcas públicas.",
+     "pag": [
+      17,
+      21
+     ],
+     "resumen": "Propone un impuesto permanente sobre los beneficios extraordinarios de la gran banca (al menos el 50 %), recuperar los beneficios extra de eléctricas y petroleras y subir el tipo efectivo mínimo de Sociedades del 15 % al 19 % (29 % para oligopolios)."
     }
    }
   },
@@ -1141,6 +1216,14 @@ window.DATOS = {
       4
      ],
      "resumen": "Propone dar competencias a los ayuntamientos para declarar zonas tensionadas e impulsar el control efectivo de precios del alquiler, además de un registro estatal de arrendamientos."
+    },
+    "PODEMOS": {
+     "letra": "A",
+     "cita": "Aprobaremos una reducción extraordinaria del 40 % de los precios del alquiler, aplicable a los contratos vigentes, sus renovaciones y prórrogas, así como a los nuevos contratos",
+     "pag": [
+      8
+     ],
+     "resumen": "Propone rebajar por ley un 40 % los alquileres (vigentes y nuevos), sin bajar del 60 % del precio medio de la zona, y convertir los contratos de vivienda habitual en indefinidos por defecto."
     }
    }
   },
@@ -1242,6 +1325,14 @@ window.DATOS = {
       6
      ],
      "resumen": "Propone prohibir por ley los desahucios sin alternativa habitacional, especialmente los promovidos por grandes tenedores; no menciona la okupación."
+    },
+    "PODEMOS": {
+     "letra": "A",
+     "cita": "Prohibiremos los desahucios y lanzamientos de personas en situación de vulnerabilidad sin alternativa habitacional digna y adecuada",
+     "pag": [
+      9
+     ],
+     "resumen": "Propone prohibir los desahucios de personas vulnerables sin alternativa habitacional, con suspensión indefinida, prohibir los desalojos extrajudiciales e ilegalizar las empresas de desokupación."
     }
    }
   },
@@ -1335,6 +1426,14 @@ window.DATOS = {
       4
      ],
      "resumen": "Propone destinar el 1% del PIB anual a adquisición y promoción de vivienda protegida, pública o con cooperativas y entidades sin ánimo especulativo."
+    },
+    "PODEMOS": {
+     "letra": "A",
+     "cita": "Ampliaremos significativamente el parque público de vivienda mediante el ejercicio del derecho de tanteo y retracto",
+     "pag": [
+      10
+     ],
+     "resumen": "Propone ampliar significativamente el parque público mediante tanteo y retracto, compra pública, expropiación de uso, activos de la SAREB y reserva del 50 % de la nueva vivienda planificada para alquiler social, más una inmobiliaria pública; no fija una cifra de viviendas."
     }
    }
   },
@@ -1441,6 +1540,14 @@ window.DATOS = {
       4
      ],
      "resumen": "Propone prohibir que fondos especulativos compren viviendas y una ley de expropiación a grandes fondos y tenedores (de más de 1.000 viviendas bajando hasta 50) para ampliar el parque público."
+    },
+    "PODEMOS": {
+     "letra": "A",
+     "cita": "Impulsaremos la expropiación de uso por interés social de las viviendas que superen las diez en manos de grandes tenedores, fondos de inversión, entidades financieras y bancos",
+     "pag": [
+      8
+     ],
+     "resumen": "Propone la expropiación de uso de las viviendas que superen las diez en manos de grandes tenedores, fondos y bancos para el alquiler social, y prohibir comprar viviendas que no sean para residencia habitual o segunda residencia propia."
     }
    }
   },
@@ -1525,6 +1632,14 @@ window.DATOS = {
       6
      ],
      "resumen": "Propone reducir la jornada laboral a cuatro días (32 horas semanales) sin reducción de sueldo."
+    },
+    "PODEMOS": {
+     "letra": "A",
+     "cita": "Reduciremos la jornada laboral a 30 horas semanales durante la legislatura, comenzando con una bajada a 35 horas",
+     "pag": [
+      41
+     ],
+     "resumen": "Propone reducir la jornada a 30 horas semanales durante la legislatura sin rebajar salarios, empezando por 35 horas, con opción de semana de cuatro días y dos días de teletrabajo donde sea posible."
     }
    }
   },
@@ -1610,6 +1725,14 @@ window.DATOS = {
       6
      ],
      "resumen": "Propone recuperar los salarios de tramitación y la indemnización de 45 días por año trabajado en el despido improcedente."
+    },
+    "PODEMOS": {
+     "letra": "A",
+     "cita": "Restableceremos la indemnización de 45 días por año trabajado en los despidos ilegales",
+     "pag": [
+      42
+     ],
+     "resumen": "Propone un nuevo Estatuto de los Trabajadores, recuperar la indemnización de 45 días por despido ilegal con opción de readmisión, eliminar los despidos objetivos por causas económicas u organizativas y recuperar la autorización administrativa previa en los ERE."
     }
    }
   },
@@ -1704,6 +1827,16 @@ window.DATOS = {
       8
      ],
      "resumen": "Propone volver a la jubilación a los 65 años, garantizar constitucionalmente la revalorización de las pensiones según el coste de la vida y suprimir las desgravaciones a los planes privados."
+    },
+    "PODEMOS": {
+     "letra": "A",
+     "cita": "Reformaremos el sistema de pensiones para adelantar la edad ordinaria de jubilación a los 63 años",
+     "pag": [
+      21,
+      41,
+      44
+     ],
+     "resumen": "Propone adelantar la edad ordinaria de jubilación a los 63 años, eliminar penalizaciones con 40 años cotizados, igualar la pensión mínima al SMI, suprimir el tope de cotización y eliminar las desgravaciones a planes de pensiones privados. No menciona expresamente la revalorización con el IPC."
     }
    }
   },
@@ -1771,6 +1904,14 @@ window.DATOS = {
       30
      ],
      "resumen": "Propone mantener el calendario de cierre de las centrales nucleares sin nuevas prórrogas, con un plan de reindustrialización verde para la comarca."
+    },
+    "PODEMOS": {
+     "letra": "B",
+     "cita": "Defenderemos el cumplimiento del calendario de cierre de las centrales nucleares, comenzando por Almaraz",
+     "pag": [
+      103
+     ],
+     "resumen": "Propone cumplir el calendario de cierre nuclear empezando por Almaraz, con planes de transición justa, sin prórrogas indefinidas, y abandonar la fisión nuclear en la UE."
     }
    }
   },
@@ -1880,6 +2021,16 @@ window.DATOS = {
       31
      ],
      "resumen": "Propone revisar la Ley de Cambio Climático para alcanzar el 100% de electrificación del sistema en 2030 y abandonar los combustibles fósiles con horizonte 2040."
+    },
+    "PODEMOS": {
+     "letra": "A",
+     "cita": "alcanzar al menos un 95 % de generación eléctrica renovable en 2035, avanzando hacia un sistema completamente descarbonizado en 2040",
+     "pag": [
+      94,
+      95,
+      98
+     ],
+     "resumen": "Propone reducir las emisiones al menos un 55 % en 2030 (con ambición del 65 %), adelantar la neutralidad climática a 2040 y alcanzar al menos un 95 % de generación eléctrica renovable en 2035."
     }
    }
   },
@@ -1971,6 +2122,14 @@ window.DATOS = {
       64
      ],
      "resumen": "Propone regularizar y dar derechos a quienes viven aquí, con vías de regularización y facilidades para la autorización de trabajo."
+    },
+    "PODEMOS": {
+     "letra": "A",
+     "cita": "Establecimiento de un procedimiento permanente de regularización de las personas migrantes.",
+     "pag": [
+      67
+     ],
+     "resumen": "Propone derogar la Ley de Extranjería y establecer un procedimiento permanente de regularización basado en el arraigo social, familiar y comunitario, sin depender solo de un contrato de trabajo."
     }
    }
   },
@@ -2059,6 +2218,14 @@ window.DATOS = {
       9
      ],
      "resumen": "No trata la 'prioridad nacional' como tal; propone garantizar el acceso universal a la sanidad pública sin discriminación por origen o situación administrativa."
+    },
+    "PODEMOS": {
+     "letra": "A",
+     "cita": "incluidas las personas migrantes en situación administrativa irregular y las solicitantes de asilo. Eliminaremos las barreras administrativas que impiden recibir atención",
+     "pag": [
+      69
+     ],
+     "resumen": "No usa el concepto de «prioridad nacional»; defiende la sanidad y los servicios sociales universales, incluidas las personas migrantes en situación irregular, eliminando barreras administrativas."
     }
    }
   },
@@ -2162,6 +2329,15 @@ window.DATOS = {
       64
      ],
      "resumen": "Exige eliminar los CIE, prohibir las devoluciones ilegales encubiertas y garantizar la protección de menores y el derecho de asilo."
+    },
+    "PODEMOS": {
+     "letra": "A",
+     "cita": "Procederemos al cierre de todos los Centros de Internamiento de Extranjeros",
+     "pag": [
+      65,
+      69
+     ],
+     "resumen": "Propone cerrar todos los CIE, acabar con las devoluciones en caliente, abolir Frontex y un sistema estatal obligatorio de reparto de menores no acompañados entre comunidades."
     }
    }
   },
@@ -2640,6 +2816,14 @@ window.DATOS = {
       62
      ],
      "resumen": "Propone una Unión Europea de la Defensa que pueda sustituir a la OTAN, auditar el gasto en defensa e impedir que su aumento se haga a costa de los servicios públicos."
+    },
+    "PODEMOS": {
+     "letra": "A",
+     "cita": "Impulsaremos la salida de España de la OTAN mediante la denuncia del Tratado del Atlántico Norte",
+     "pag": [
+      28
+     ],
+     "resumen": "Propone salir de la OTAN, cerrar las bases de Rota y Morón, revertir el aumento del gasto militar y congelarlo, y rechazar el objetivo del 5 % del PIB."
     }
    }
   },
@@ -2718,6 +2902,14 @@ window.DATOS = {
       52
      ],
      "resumen": "Propone garantizar el aborto gratuito y accesible en la red sanitaria pública y regular la objeción de conciencia para que no sea institucional."
+    },
+    "PODEMOS": {
+     "letra": "A",
+     "cita": "Incorporar expresamente el derecho al aborto en la Constitución",
+     "pag": [
+      51
+     ],
+     "resumen": "Propone incluir el derecho al aborto en la Constitución como derecho fundamental (artículo 15) y eliminar del Código Penal las referencias al aborto consentido."
     }
    }
   },
@@ -2811,6 +3003,14 @@ window.DATOS = {
       55
      ],
      "resumen": "Propone blindar la ley trans y LGTBI y el matrimonio igualitario, seguir avanzando en derechos trans y no binarios y tipificar como delito las terapias de conversión."
+    },
+    "PODEMOS": {
+     "letra": "A",
+     "cita": "Introducción en todos los formularios y documentos oficiales de identidad la opción de género no binario.",
+     "pag": [
+      52
+     ],
+     "resumen": "Propone un paquete de derechos LGTBIQA+: opción de género no binario en documentos oficiales, cupo laboral trans en el empleo público y eliminar obstáculos a la libre determinación de género de menores de 14 años."
     }
    }
   },
@@ -2912,6 +3112,15 @@ window.DATOS = {
       43
      ],
      "resumen": "Propone derogar la Ley de Amnistía de 1977, retirar símbolos franquistas y ampliar la Ley de Memoria Democrática para reparar las confiscaciones de dinero del franquismo."
+    },
+    "PODEMOS": {
+     "letra": "A",
+     "cita": "Desarrollaremos de forma inmediata todos los aspectos pendientes de aplicación de la Ley de Memoria Democrática",
+     "pag": [
+      135,
+      137
+     ],
+     "resumen": "Propone desarrollar de inmediato la Ley de Memoria Democrática, reformar la Ley de Amnistía de 1977 para juzgar los crímenes franquistas, transformar Cuelgamuros y retirar símbolos franquistas."
     }
    }
   }
